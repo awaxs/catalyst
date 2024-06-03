@@ -1,0 +1,19 @@
+
+1. js 파일의 함수 이름이 A1목차 라고 하면
+		function A1목차()
+
+2. js 파일패스로부터 "A1목차" 을 import 한다.
+		import A1목차 from '../pages/0_contents/1_목차'
+
+3. Route 의 element 이름을 import 한 이름인 A1목차으로 하고 < /> 로 반드시 감쌓야 한다.
+		<Route path={'/0_contents/A목차'} element={<A1목차/>} />
+
+4. Route path 와 메뉴 json 파일("url")에 있는 Link to 와 반드시 같아야한다.
+		{"title": "1. 목차", "url": "/0_contents/A목차"},
+
+5. Route path 가 ip 에 나타남
+		http://localhost:3000/0_contents/A목차
+
+6. %%% 중요
+		js 파일내 함수 명은 반드시 대문자로 시작해야한다. 숫자 포함 안됨
+		MyFunc or MY_FUNC

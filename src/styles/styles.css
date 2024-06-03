@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.home {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-image: url('./AI.jpg');
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  color: #5aa2dc;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.dropdown-menu {
+  width: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+hr.class-1 {
+  border-top: 10px solid rgb(13, 0, 253)
+}
+
+hr.class-2 {
+  border-top: 3px solid rgb(0, 68, 253)
+}
+
+hr.class-3 {
+  border-top: 1px dashed rgb(0, 68, 253)
+}
+
+hr.class-4 {
+  border-top: 1px dotted rgb(0, 68, 253)
+}
+
+hr.class-5 {
+  background-color: #fff;
+  border-top: 2px dashed rgb(0, 68, 253)
+}
+
+hr.class-6 {
+  background-color: #fff;
+  border-top: 5px dotted rgb(0, 0, 0)
+}
+
+
+.h5style {
+  font-weight: "bold";
+  color: "blue";
+}
+.tablecss {
+  width: "600pt";
+  border: "1px solid #444444";
+}
+.trcss {
+  text-align: "center"; 
+  border: "1px solid #aaa";
+}
+.hrstyle {
+  height: "10pt";
+  background-color: "blue";
+}
+.red {
+  color: "red";
+}
+.blue {
+  color: "blue";
+}
+.bk {
+  background-color: "#ccffff";
+}
+.bky {
+  background-color: "#ffffcc";
+}
+
+.text1 {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  width: 95vw;
+  padding-left: 40px;
+}
+
+ul, ol {
+  width: 95vw;
+  padding-left: 40px;
+}
